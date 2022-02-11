@@ -26,4 +26,5 @@ npm start
 3. Poper layout practices, responsiveness and animations.
 
 ## End note
-> Later....
+- Comments in the code are as a personal note to me about whatever i felt imp there while learning.
+- Project started much before, but only the setup was done.
