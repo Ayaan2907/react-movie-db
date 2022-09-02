@@ -24,7 +24,7 @@ function App() {
             setTimeout(() => {
                 setIsLoading(false);
                 setMovies(response.data.Search);
-            }, 10000);
+            }, 1000);
             //  console.log(movies)
         }
     };

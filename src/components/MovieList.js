@@ -5,15 +5,13 @@ import MovieCard from "./MovieCard";
 
 export default function MovieList({ movieList, isLoading }) {
    if (isLoading) {
-      return <p>loading</p>;
+      return "    ... Loading movies and lists ";
    } else {
       return (
          <div className="movieList">
-            <p>
                {movieList.map((e) => (
                   <MovieCard movie={e} key={e.imdbID} />
                ))}
-            </p>
          </div>
       );
    }
